@@ -1,3 +1,9 @@
+Resolve IP to HOST
+```
+[System.Net.Dns]::GetHostbyAddress(“$IP”)
+```
+
+
 Live sys internals
 ```
 net use s: \\live.sysinternals.com\tools;
