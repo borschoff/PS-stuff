@@ -1,3 +1,8 @@
+Run Ubuntu env
+```
+docker run -t -i ubuntu /bin/bash
+```
+
 Save state
 ```
 docker commit --change "!!!!" <ID>  user/img_name:version
