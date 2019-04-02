@@ -1,3 +1,8 @@
+Save state
+```
+docker commit --change "!!!!" <ID>  user/img_name:version
+```
+
 run docker session
 ```
 docker exec -ti {container_id} bash
