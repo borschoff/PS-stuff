@@ -13,6 +13,12 @@ run docker session
 docker exec -ti {container_id} bash
 ```
 
+Get container IP
+```
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+```
+
+
 Clean all images
 ```
 docker rmi (docker image ls -q)
